@@ -143,9 +143,9 @@ NODE_ENV=development
 MONGODB_URI=mongodb+srv://dev24prabhakar_db_user:EGq7n2nN63HtUvHz@experience.mujm1aj.mongodb.net
 
 # JWT Configuration
-JWT_SECRET=qwertyuiop
+JWT_SECRET=jwt_secret_key
 JWT_EXPIRE=7d
-JWT_REFRESH_SECRET=1234567890qwertyuiop
+JWT_REFRESH_SECRET=refresh_token_secret
 JWT_REFRESH_EXPIRE=30d
 
 # CORS Configuration
