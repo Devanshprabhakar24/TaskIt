@@ -332,7 +332,7 @@ The easiest way to run the entire application:
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/Devanshprabhakar24/TaskIt
 cd task-management-api
 
 # Start all services (MongoDB, Backend, Frontend)
