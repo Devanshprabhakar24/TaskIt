@@ -140,12 +140,12 @@ PORT=5000
 NODE_ENV=development
 
 # MongoDB Configuration
-MONGODB_URI=mongodb://localhost:27017/task_management_db
+MONGODB_URI=mongodb+srv://dev24prabhakar_db_user:EGq7n2nN63HtUvHz@experience.mujm1aj.mongodb.net
 
 # JWT Configuration
-JWT_SECRET=your_super_secret_jwt_key
+JWT_SECRET=qwertyuiop
 JWT_EXPIRE=7d
-JWT_REFRESH_SECRET=your_refresh_token_secret
+JWT_REFRESH_SECRET=1234567890qwertyuiop
 JWT_REFRESH_EXPIRE=30d
 
 # CORS Configuration
