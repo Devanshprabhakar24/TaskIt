@@ -2,6 +2,31 @@
 
 A scalable REST API with Authentication, Role-Based Access Control, and a React frontend.
 
+## Quick Start with Docker (Recommended)
+
+The easiest way to run the entire application:
+
+```bash
+# Clone the repository
+git clone https://github.com/Devanshprabhakar24/TaskIt
+cd TaskIt
+
+# Start all services (MongoDB, Backend, Frontend)
+docker-compose up -d
+
+# View logs
+docker-compose logs -f
+
+# Stop all services
+docker-compose down
+```
+
+Access the application:
+
+- **Frontend**: http://localhost
+- **Backend API**: http://localhost:5000
+- **Swagger Docs**: http://localhost:5000/api-docs
+
 ## Features
 
 ### Backend
@@ -110,7 +135,7 @@ A scalable REST API with Authentication, Role-Based Access Control, and a React 
 └── README.md
 ```
 
-## Getting Started
+## Getting Started (Manual Setup)
 
 ### Prerequisites
 
@@ -325,31 +350,6 @@ The application uses Winston for comprehensive logging:
 **Log Location:** `backend/logs/`
 
 ## Deployment
-
-### Docker Deployment (Recommended)
-
-The easiest way to run the entire application:
-
-```bash
-# Clone the repository
-git clone https://github.com/Devanshprabhakar24/TaskIt
-cd task-management-api
-
-# Start all services (MongoDB, Backend, Frontend)
-docker-compose up -d
-
-# View logs
-docker-compose logs -f
-
-# Stop all services
-docker-compose down
-```
-
-Access the application:
-
-- **Frontend**: http://localhost
-- **Backend API**: http://localhost:5000
-- **Swagger Docs**: http://localhost:5000/api-docs
 
 ### Backend (Example: Railway/Render)
 
